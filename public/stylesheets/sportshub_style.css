@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+}
+
+h1 { 
+    font-family: "Kimberley", sans-serif; 
+    color: red;
+    margin: 0 20%;
+}
+
+h2 {
+    margin:0 20%;
+}
+
+p {
+    width:50%;
+    padding: 20px 10%;
+    margin:0 10%;
+}
+
+nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+nav {
+    height:40px;
+    background:#4848ed;
+    overflow:hidden;
+    margin-left: center;
+}
+
+nav li{
+    float:left;
+    padding: 10px 10px 0 10px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:#000;
+}
+
+#form {
+    float: right;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px 0 10px;
+}
+
+footer{
+    padding:10px;
+    text-align: center;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 600px) {
+/*only applies if window is 600px or less*/
+    section#main{
+        width:100%;
+        float:none;
+        text-align:center;
+    }
+    #form{
+        width:100%;
+        float:none;
+        text-align:center;
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
