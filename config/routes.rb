@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/' => 'sportshub#home'
+  get '/signup' 	=> 'users#new'
+  get '/' 		=> 'sportshub#home'
   
 end

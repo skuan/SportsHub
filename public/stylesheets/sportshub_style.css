@@ -3,10 +3,38 @@
   src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
 }
 
+.header {
+
+    background-color: black;
+
+}
+
 h1 { 
     font-family: "Kimberley", sans-serif; 
     color: red;
     margin: 0 20%;
+    padding: 30px 0px 30px 0px;
+    position: relative ;
+    ;
+}
+
+.nav {
+    background-color: #efefef;
+
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 14px;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+  background-color: #efefef;
 }
 
 h2 {
@@ -14,45 +42,12 @@ h2 {
 }
 
 p {
-    width:50%;
+    width:70%;
     padding: 20px 10%;
     margin:0 10%;
 }
 
-nav ul{
-    padding:0;
-    margin:0;
-    list-style-type: none;
-}
 
-nav {
-    height:40px;
-    background:#4848ed;
-    overflow:hidden;
-    margin-left: center;
-}
-
-nav li{
-    float:left;
-    padding: 10px 10px 0 10px;
-}
-
-nav a{
-    color:#fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover{
-    color:#000;
-}
-
-#form {
-    float: right;
-    color: white;
-    font-weight: bold;
-    padding: 10px 10px 0 10px;
-}
 
 footer{
     padding:10px;
