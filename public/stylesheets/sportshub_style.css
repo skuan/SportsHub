@@ -3,32 +3,33 @@
   src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
 }
 
+/*.header {
+
+    background-color: #2f2e2d;*/
+
 .header {
-
-    background-color: black;
-
-}
-
-h1 { 
-    font-family: "Kimberley", sans-serif; 
+    font-size: 40px;
+    font-family: "Kimberley", sans serif;
     color: red;
-    margin: 0 20%;
-    padding: 30px 0px 30px 0px;
-    position: relative ;
-    ;
+    text-align: center;
+    background-color: #393c3d;
+    margin: 0px;
+    padding: 30px 0px 30px;
+
+
 }
 
 .nav {
     background-color: #efefef;
-
+    margin: 0px;
+    
 }
 
 .nav a {
   color: #5a5a5a;
   font-size: 14px;
   font-weight: bold;
-  padding: 14px 14px;
-  margin-top: 14px;
+  padding: 14px 16px;
   text-transform: uppercase;
 }
 
@@ -41,6 +42,30 @@ h2 {
     margin:0 20%;
 }
 
+.jumbotron {
+  background-image:url('http://fc04.deviantart.net/fs71/f/2011/293/0/1/dark_textured_background_6_by_dianascreations-d4dgfhb.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
 p {
     width:70%;
     padding: 20px 10%;
@@ -51,7 +76,7 @@ p {
 
 footer{
     padding:10px;
-    text-align: center;
+    text-align: right;
 }
 
 
